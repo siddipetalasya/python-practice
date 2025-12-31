@@ -1,10 +1,9 @@
-def even_odd():
-    num = int(input("Enter a number: "))
+
+def even_odd(num):
     if num % 2 == 0:
-        return "Even"
+        print(num, "is Even")
     else:
-        return "Odd"
+        print(num, "is Odd")
 
 # Function call
-result = even_odd()
-print("Number is", result)
+even_odd(8)
